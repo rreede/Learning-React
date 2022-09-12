@@ -28,19 +28,19 @@ const TableBody = (props) => {
 }
 
 
-class Table extends Component {
-  render() {
+const Table = (props) => {
 
-    const { characterData } = this.props
+  const { characterData, removeCharacter } = props
+
+   
 
     return (
       <table>
         <TableHeader />
-        <TableBody characterData={characterData} />
+        <TableBody characterData={characterData} removeCharacter={removeCharacter} />
       </table>
 
     )
-  }
 }
 
 
