@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 const TableHeader  = () =>   {
   return (
@@ -33,7 +33,7 @@ const TableBody = (props) => {
 
 const Table = (props) => {
 
-  const { characterData, removeCharacter } = props
+  const { characterData, removeCharacter } = props;
 
    
 
